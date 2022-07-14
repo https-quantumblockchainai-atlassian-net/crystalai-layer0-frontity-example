@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "layer0": "layer0",
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy layer0-docs",
+    "deploy": "layer0 deploy",
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve"
+  },
+  "name": "layer0-frontity-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@frontity/core": "^1.10.1",
+    "@frontity/html2react": "^1.6.1",
+    "@frontity/mars-theme": "./packages/mars-theme",
+    "@frontity/tiny-router": "^1.3.2",
+    "@frontity/wp-source": "^1.11.1",
+    "frontity": "^1.14.1"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^4.13.9",
+    "@layer0/core": "^4.13.9",
+    "@layer0/devtools": "^4.13.9",
+    "@layer0/frontity": "^4.13.9",
+    "@layer0/prefetch": "^4.13.9",
+    "@layer0/react": "^4.13.9"
+  }
+}
